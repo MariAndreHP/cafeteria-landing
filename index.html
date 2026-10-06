@@ -28,6 +28,7 @@
       <nav class="nav-links">
         <a href="#carta">Carta</a>
         <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
         <a href="#visitanos">Visítanos</a>
   <a
     class="instagram"
@@ -290,8 +291,81 @@
       </div>
 
     </section>
+<!-- CONTACTO -->
+<section class="contact" id="contacto">
 
+  <div class="container contact-grid">
 
+    <div class="contact-intro">
+      <p class="section-label">Contacto</p>
+
+      <h2>
+        ¿Hablamos<br>
+        junto a un café?
+      </h2>
+
+      <p>
+        ¿Tienes alguna pregunta, quieres reservar un espacio
+        o simplemente escribirnos? Déjanos un mensaje.
+      </p>
+    </div>
+
+   <form
+  class="contact-form"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="bb865675-18d4-4530-9fdd-e0f71e0c5f46"
+  >
+
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Tu nombre"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tu@email.com"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          rows="5"
+          placeholder="Cuéntanos..."
+          required
+        ></textarea>
+      </div>
+
+      <button class="form-button" type="submit">
+        Enviar mensaje
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+    
+    
     <!-- VISÍTANOS -->
     <section class="visit" id="visitanos">
 
